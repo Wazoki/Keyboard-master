@@ -32,6 +32,7 @@ public class Main extends Application
 	private Key[] keys = new Key[88];
 	private ArrayList<AudioClip> noise = new ArrayList<AudioClip>();
 	private boolean[] playing = new boolean[89];
+	private int x = 10;
 	
 	public void start(Stage primaryStage) 
 	{
